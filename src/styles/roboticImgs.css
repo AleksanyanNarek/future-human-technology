@@ -1,0 +1,44 @@
+.roboticImgs{
+    height: 32rem;
+    background-image: url(../images/roboticImgsBack.jpg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.roboticImgsInfo{
+    justify-content: end;
+    margin-top: -8rem;
+}
+
+.imagesRI{
+    height: 23rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.img1RI img{
+    height: 100%;
+    margin-top: 10rem;
+}
+
+.img3RI img{
+    margin-top: 7rem;
+    height: 110%;
+}
+
+.img4RI img{
+    height: 100%;
+}
+
+.start{
+    display: flex;
+    align-items: flex-start;
+}
+
+.roboticImgsP{
+    margin-left: 61rem;
+    margin-top: 3rem;
+    width: 18rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,35 @@
+.jeffBezos{
+    height: 35rem;
+    background-image: url(../images/jeffBezosBackImg.jpg);
+    position: relative;
+}
+
+.bubblesJ{
+    position: absolute;
+    width: 24rem;
+    left: 0;
+    top: -20%;
+}
+
+.jeffBezosInfo{
+    width: 43%;
+    padding-left: 15%;
+    margin-bottom: 10rem;
+}
+
+.jefName{
+    text-align: end;
+}
+
+.jefName h5{
+    font-size: 2rem;
+}
+
+.jefSpan{
+    height: 10rem;
+}
+
+.jefSpan span{
+    font-size: 15rem;
+    color: #FBE900;
+}

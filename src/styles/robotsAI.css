@@ -1,0 +1,50 @@
+.robotsAI{
+    height: 55rem;
+    position: relative;
+    background-color: #FCF7FC;
+}
+
+.robotsAIinfo{
+    width: 58rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.robotsAIinfo p{
+    font-size: 1.2rem;
+}
+
+.robotsAIleft{
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.robotsAIleft h2{
+    font-size: 3.5rem;
+    margin-top: 0.5rem;
+}
+
+.robotsAIleftText{
+    margin: 3rem 0 0 0.5rem;
+}
+
+.robotsAIleftText h3{
+    margin-bottom: 2rem;
+}
+
+.robotsAIright{
+    width: 50%;
+}
+
+.robotsAIimages img{
+    width: 100%;
+}
+
+.flycar{
+    width: 75% !important;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -5rem;
+    margin-left: 12rem;
+    box-shadow: -2rem -2rem #88FBFD;
+}

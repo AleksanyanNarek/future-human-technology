@@ -1,0 +1,68 @@
+.rocketSection{
+    height: 65rem;
+    background-image: url(../images/rocketSectionBackImg.jpg);
+    position: relative;
+}
+
+.bubbleRS{
+    width: 20rem;
+    position: absolute;
+    top: -8%
+}
+
+.gradCircles{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 50%;
+    top: -30%
+}
+
+.gradCirclesHands{
+    width: 33rem;
+    border-radius: 50%;
+}
+
+.gradCirclesCircle{
+    position: absolute;
+    width: 10rem;
+    bottom: 0;
+}
+
+.imagesRS{
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    margin-left: -2rem;
+    margin-top: 15rem;
+}
+
+.img1RS img{
+    margin-top: 10rem;
+    height: 95%;
+}
+
+.img2RS img{
+    margin-top: 3rem;
+    height: 170%;
+}
+
+.img3RS img{
+    height: 80%;
+}
+
+.img4RS img{
+    height: 120%;
+}
+
+.end{
+    display: flex;
+    align-items: flex-end;
+}
+
+.rocketSectionP{
+    margin-left: 39rem;
+    margin-top: 3rem;
+    width: 40rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,22 @@
+.home{
+    height: 48rem;
+    background-image: url(../images/homeBackImg.jpg);
+    position: relative;
+}
+
+.home img{
+    position: absolute;
+    width: 11rem;
+    top: 15%;
+    left: 18%;
+}
+
+.homeInfo{
+    padding-left: 2rem;
+    width: 38rem;
+    z-index: 2;
+}
+
+.homeInfo p{
+    font-weight: 400;
+}

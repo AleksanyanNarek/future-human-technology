@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+
+import Home from './components/Home';
+import HumanRobot from './components/HumanRobot';
+import RocketSection from './components/RocketSection';
+import Technologies from './components/Technologies';
+import JeffBezos from './components/JeffBezos';
+import ConceptCars from './components/ConceptCars';
+import RobotsAI from './components/RobotsAI';
+import RoboticImgs from './components/RoboticImgs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <HumanRobot />
+      <RocketSection />
+      <Technologies />
+      <div className='appChild'>
+        <JeffBezos />
+        <ConceptCars />
+      </div>
+      <RobotsAI />
+      <RoboticImgs />
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.humanRobot{
+    height: 40rem;
+    position: relative;
+}
+
+.humanRobotInfo{
+    width: 35rem;
+}
+
+.humanRobot img{
+    position: absolute;
+    top: -25%;
+    right: 0;
+    width: 28rem;
+}
+
+button{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding: 1rem 2rem;
+    color: #834496;
+    border: 3px #88FBFD solid;
+    background-color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #88FBFD;
+}
+
+.humanRobotInfo p{
+    margin: 2rem 0;
+}
+

@@ -1,0 +1,53 @@
+.conceptCars{
+    height: 35rem;
+    background-image: url(../images/conceptCarsBackImg.jpg);
+    position: relative;
+    justify-content: center;
+}
+
+.conceptCarsInfo{
+    display: flex;
+    align-items: center;
+}
+
+.conceptCarsImgs{
+    width: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.conceptCarsImgs img{
+    width: 100%;
+}
+
+.imgsBottom{
+    width: 50%;
+    margin-top: -5rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.imgsBottomBlue{
+    background-color: #88FBFD;
+    width: 2rem;
+    height: 9rem;
+}
+
+.ConceptCarsText{
+    max-width: 27rem;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+
+.ConceptCarsText h2{
+    color: white;
+}
+
+.ConceptCarsText p{
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}

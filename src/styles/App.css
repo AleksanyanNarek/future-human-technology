@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+.App::-webkit-scrollbar-thumb{
+  background-color: #5c5c5c;
+}
+ 
+.App::-webkit-scrollbar-track{
+  background: #FFFFFF;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.App{
+  scroll-snap-type: y proximity;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.appChild{
+  scroll-snap-align: center;
+}
+
+.backImg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+}
+
+.leftSpace{
+  margin-left: 21%;
+}
+
+.blackP p{
+  color: #181811;
+}
+
+.bottBorder{
+  width: 80%;
+  height: 16px;
+  background-color: #88fbfd;
+  margin-top: -1.5rem;
+}
+
+.img{
+  width: 18rem;
+  height: 100%;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+h1{
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1.1;
+  font-family: 'Open Sans',sans-serif;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 4rem;
+  color: #834496;
+  font-family: 'Open Sans',sans-serif;
+}
+
+h3{
+  font-size: 2rem;
+  color: #834496;
+  font-family: 'Open Sans',sans-serif;
+}
+
+h4{
+  color: #181811;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+p{
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+@media (max-width: 1450px){
+  .leftSpace{
+    margin-left: 15%;
+  }
+}
